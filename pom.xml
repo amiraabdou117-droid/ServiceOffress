@@ -49,11 +49,27 @@
 			<scope>runtime</scope>
 			<optional>true</optional>
 		</dependency>
+
+		<!-- ============================================== -->
+		<!-- MySQL COMMENTÉ pour le déploiement cloud      -->
+		<!-- ============================================== -->
+		<!--
 		<dependency>
 			<groupId>com.mysql</groupId>
 			<artifactId>mysql-connector-j</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+		-->
+
+		<!-- ============================================== -->
+		<!-- H2 AJOUTÉ pour le déploiement cloud           -->
+		<!-- ============================================== -->
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa-test</artifactId>
